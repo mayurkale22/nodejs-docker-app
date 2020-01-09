@@ -13,8 +13,8 @@ $ npm run start
 ## Build and push the docker image to Google Container Registry
 
 ```
-$ docker build -t gcr.io/[PROJECT_ID]/nodejs-docker-app:v1 .
-$ docker push gcr.io/[PROJECT_ID]/nodejs-docker-app:v1
+$ docker build -t gcr.io/opencenus-node/nodejs-docker-app:v1 .
+$ docker push gcr.io/opencenus-node/nodejs-docker-app:v1
 ```
 
 ## Create deployment

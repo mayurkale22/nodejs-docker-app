@@ -9,12 +9,12 @@ spec:
   replicas: 1
   template:
     metadata:
-      labels: 
+      labels:
         app: my-app
         env: development
-    spec:                
-      containers: 
+    spec:
+      containers:
       - name: my-app
-        image: gcr.io/opencenus-node/nodejs-docker-app:v3
+        image: gcr.io/opencenus-node/nodejs-docker-app:v1
         ports:
         - containerPort: 3000
